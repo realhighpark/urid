@@ -1,0 +1,114 @@
+.main-area{
+    margin-top:50px;
+    height:320px;
+    width:100%;
+    background:url(../images/curriculum.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    text-align:center;
+}
+
+.timeline-area{
+    width:1280px;
+    height:auto;
+    margin:140px auto 0 auto;
+}
+.timeline-area .headline-3{
+    margin-bottom:48px;
+}
+.tl-line{
+    width:1280px;
+    background:url(../images/timeline.png);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height:10px;
+}
+.t-a-row{
+    margin-bottom:72px;
+    display:flex;
+    justify-content: space-between;
+}
+.t-a-col{
+    width:180px;
+    padding-left:4px;
+}
+.timeline-area .p1{
+    color:#fff;
+    font-weight: 500;
+    margin-top:24px;
+    margin-bottom:12px;
+}
+
+.plan-box{
+    width:1280px;
+    height:auto;
+    margin:260px auto;
+}
+.p-b-contents{
+    width:1280px;
+    margin-bottom:92px;
+    display:flex;
+    justify-content: space-between;
+}
+.p-b-left{
+    width:620px;
+    height:auto;
+}
+.p-b-left .l-con{
+    display:flex;
+    align-items: center;
+}
+.l-con .headline-3{
+    width:448px;
+}
+.p-b-left .primary{
+    width:148px;
+    height:38px;
+    font-size:12px;
+    font-weight:500;
+    background:#1C3428;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-right:24px;
+}
+.p-b-left .secondary{
+    width:172px;
+    height:38px;
+    font-size:12px;
+    font-weight:500;
+    background:#004D92;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-right:24px;
+}
+.p-b-left .line{
+    width:102px;
+    height:38px;
+    font-size:12px;
+    font-weight:500;
+    border:1px solid #555;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-right:24px;
+}
+.p-b-right{
+    width:620px;
+}
+.p-b-right .p3{
+    margin-bottom:48px;
+}
+.p-b-right .p1{
+    color:#fff;
+    margin-bottom:12px;
+}

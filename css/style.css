@@ -1,0 +1,81 @@
+.main-area{
+    margin-top:90px;
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+}
+.main-left{
+    width:50%;
+    height:auto;
+    aspect-ratio: 1/1;
+    background:url(../images/main-top.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.main-right{
+    width:50%;
+    padding-left:80px;
+    display:flex;
+    align-items: center;
+}
+.m-r-text .headline-4{
+    color:#d7d7d7;
+    margin-top:12px;
+}
+.m-r-line{
+    width:64px;
+    height:auto;
+    border: 1px solid #a7a7a7;
+    margin: 48px 0;
+}
+
+.main-i-area{
+    width:1120px;
+    height:auto;
+    margin:260px auto;
+}
+.main-i-area .headline-3{
+    margin-bottom:48px;
+}
+
+.main-t-area{
+    width:1280px;
+    height:auto;
+    margin:0 auto 260px auto;
+    display:flex;
+    justify-content: space-between;
+}
+.main-t-contents{
+    position:relative;
+    width:620px;
+    height:380px;
+    background:#161616;
+    display:flex;
+    align-items: center;
+}
+.bg-png1{
+    position: absolute;
+    width:330px;
+    height:330px;
+    top:50%;
+    right:0;
+    transform:translate(0, -50%);
+    background:url(../images/smart-card.png);
+}
+.bg-png2{
+    position: absolute;
+    width:330px;
+    height:330px;
+    top:50%;
+    right:0;
+    transform:translate(0, -50%);
+    background:url(../images/diploma.png);
+}
+.m-t-c-a{
+    width:320px;
+    margin-left:40px;
+}
+.main-t-contents .headline-5{
+    margin-bottom:24px;
+}

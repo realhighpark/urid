@@ -112,3 +112,108 @@
     color:#fff;
     margin-bottom:12px;
 }
+
+/* 모바일 */
+@media all and (max-width:480px){
+    
+
+    .main-area{
+        margin-top:50px;
+        height:240px;
+    }
+    .p3{
+        width:100%;
+    }
+    .timeline-area{
+        width:100%;
+        padding: 0 20px;
+        overflow-x: scroll;
+        position: relative;
+    }
+
+    .timeline-area::-webkit-scrollbar {
+        display: none;
+    }
+
+    .headline-3 {
+        position: sticky;
+        left: 0;
+    }
+    .p1 {
+        position: sticky;
+        left: 0;
+    }
+    .p3 {
+        position: sticky;
+        left: 0;
+    }
+
+    .tl-line{
+        width:100%;
+        display: none;
+    }
+
+    .plan-box{
+        width:100%;
+        padding: 0 20px;
+    }
+    .p-b-contents{
+        width:100%;
+        flex-direction: column;
+    }
+    .p-b-left{
+        width:100%;
+    }
+    .p-b-left .l-con{
+        flex-direction: column;
+        align-items: flex-start;
+        margin-bottom:32px;
+    }
+    .p-b-left .primary{
+        margin-bottom:12px;
+        font-size:10px;
+        width:auto;
+        height:auto;
+        padding: 8px 12px;
+    }
+    .p-b-left .secondary{
+        margin-bottom:12px;
+        font-size:10px;
+        width:auto;
+        height:auto;
+        padding: 8px 12px;
+    }
+    .p-b-left .line{
+        margin-bottom:12px;
+        font-size:10px;
+        width:auto;
+        height:auto;
+        padding: 8px 12px;
+    }
+    .p-b-right{
+        width:100%;
+    }
+    .p-b-right .p1{
+        width:100%;
+        margin-bottom:8px;
+        margin-right:24px;
+    }
+    .p-b-right .p3{
+        width:100%;
+        margin-bottom: 24px;
+    }
+    .l-con .headline-3{
+        width:100%;
+    }
+    .t-a-row {
+        width: 1000px;
+    }
+    .t-a-col{
+        width:10rem;
+        height: 11rem;
+        background-color: rgba(255,255,255, 0.1);
+        padding-left: 1rem ;
+        padding-top: 1.25rem;
+        margin-right:0.4rem;
+    }
+}

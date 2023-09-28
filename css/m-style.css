@@ -1,7 +1,7 @@
 .container{
     width:1280px;
     height:auto;
-    margin:140px auto 260px auto;
+    margin:140px auto 80px auto;
     display:flex;
     justify-content: space-between;
 }
@@ -28,6 +28,7 @@
 }
 .s-r-box .p1{
     margin-bottom:12px;
+    cursor: pointer;
 }
 
 
@@ -67,10 +68,35 @@
     height:240px;
     top:0;
     right:0;
-    background:red;
 }
-
-
+.img-area img{
+    width:180px;
+    height:240px;
+    object-fit: cover;
+}
+.normal-m{
+    width:1280px;
+    height:auto;
+    margin:0 auto 240px auto;
+    padding-left:360px;
+}
+.nor-title{
+    border-top: solid 1px #6b6b6b;
+    padding-top:24px;
+}
+.nor-con{
+    width:100%;
+    margin-top:12px;
+    height:auto;
+    display:flex;
+    flex-wrap: wrap;
+}
+.nor-name{
+    width:88px;
+    margin-right:20px;
+    margin-bottom:8px;
+    color:#d7d7d7;
+}
 
 
 /* 모바일 */
@@ -119,8 +145,33 @@
         height:auto;
         aspect-ratio: 3/4;
     }
+    .img-area img{
+        width:100%;
+        height:100%;
+        object-fit: cover;
+    }
     .member-card-space{
         width:100%;
         height:60px;
+    }
+
+    .normal-m{
+        width:100vw;
+        margin-top:120px;
+        padding-left:20px;
+        padding-right:20px;
+    }
+    .nor-title{
+        width:80%;
+        margin-left:auto;
+    }
+    .nor-con{
+        width:80%;
+        margin-left:auto;
+    }
+    .nor-name{
+        width:64px;
+        margin-right:16px;
+        font-size:15px;
     }
 }

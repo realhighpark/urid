@@ -27,6 +27,9 @@
 }
 .m-l-text .p1{
     margin-top:24px;
+    font-size:15px;
+    line-height: 22px;
+    word-break: keep-all;
 }
 
 .future-area{
@@ -157,6 +160,7 @@
     .symbol-area{
         width:100vw;
         padding:0 20px;
+        margin-top:240px;
         flex-direction: column;
     }
     .s-l-con{

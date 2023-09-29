@@ -144,15 +144,16 @@
     .future-cir{
         position:absolute;
         margin-left:-20px;
-        width:260px;
-        height:260px;
+        width:75%;
+        height:auto;
         aspect-ratio: 1/1;
     }
     .future-cir2{
         position:absolute;
-        margin:180px 0 0 130px;
-        width:260px;
-        height:260px;
+        margin:200px 0 0 130px;
+        width:75%;
+        height:auto;
+        right:0;
         aspect-ratio: 1/1;
     }
 
